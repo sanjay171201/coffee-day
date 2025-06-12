@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="coffee.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕️Coffee-day</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-items">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-items">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-items">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-items">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-items">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-items">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">best coffee</h2>
+            <h3 class="subtitle">
+              make your day great with our special coffee!
+            </h3>
+            <p class="description">
+              welcome to our coffee paradise, where every bean tells a story and
+              every cup sparks joy
+            </p>
+            <div class="buttons">
+              <a href="#" class="button order-now">order now</a>
+              <a href="#" class="button contact-us">contact us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="images/coffee-hero-section.png"
+              alt="hero"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/about-image.jpg" alt="" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">about us</h2>
+            <p class="text">
+              At coffee house in berndorf, germany, we pride ourselves on being
+              a get to destination for coffee lovers and conversation seekers
+              alike. we're dedicated to provide an execeptional coffee
+              experience in a cozy and inviting atmosphere, where guests can
+              relax, unwind, and enjoy their time in comfort.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Our menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="images/hot-beverages.png"
+                alt="hot beverages"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">hot beverages</h3>
+                <p class="text">
+                  wide range of steaming hot coffee to make you fresh and light.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/cold-beverages.png"
+                alt="cold beverages"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">cold beverages</h3>
+                <p class="text">
+                  creamy and frothy cold coffee to make you cool.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/refreshment.png"
+                alt="refreshment"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">refreshment</h3>
+                <p class="text">
+                  fruit and icy refreshing drink to make feel refresh.
+                </p>
+              </div>
+            </li>
+
+            <li class="menu-item">
+              <img
+                src="images/special-combo.png"
+                alt="special combos"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">special combos</h3>
+                <p class="text">
+                  your favorite eating and drinking combations.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/desserts.png"
+                alt="desserts"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">desserts</h3>
+                <p class="text">
+                  satiate your palate and take you on a culinary treat.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/burger-frenchfries.png"
+                alt="burger and frenchfries"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">burger and frenchfries</h3>
+                <p class="text">
+                  quick bites to satisfy your small size hunger.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-1.jpg" alt="user1" class="user-image" />
+                  <h3 class="name">sarah johnson</h3>
+                  <i class="feedback"
+                    >"loved the french roast. perfectly balanced and rich. will
+                    order again!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-2.jpg" alt="user2" class="user-image" />
+                  <h3 class="name">james wilson</h3>
+                  <i class="feedback"
+                    >"great esprssso blend! smooth and bold flavor, fast
+                    shipping too!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-3.jpg" alt="user3" class="user-image" />
+                  <h3 class="name">micheal brown</h3>
+                  <i class="feedback"
+                    >"fantasic mocha flavor. fresh and aromatic. quick
+                    shipping!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-4.jpg" alt="user4" class="user-image" />
+                  <h3 class="name">emily harris</h3>
+                  <i class="feedback"
+                    >"excelled quality! fresh beans and quick delivery. highly
+                    recommend."</iswiper-slide
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-5.jpg" alt="user5" class="user-image" />
+                  <h3 class="name">antony thompson</h3>
+                  <i class="feedback"
+                    >"best decaf i've tried! smooth and flavorful. arrived
+                    properly."</i
+                  >
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="images/gallery-1.jpg" alt="gallery1" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-2.jpg" alt="gallery2" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-3.jpg" alt="gallery3" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-4.jpg" alt="gallery4" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-5.jpg" alt="gallery5" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-6.jpg" alt="gallery6" class="gallery-image">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">contact us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123 campsite avenue, wilderness, CA 98765</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@coffeeshopwebsite</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(123) 456-78909</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>monday-friday 9:00 am - 5:00 pm</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>sunday-closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.coffeeweb.com</p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="your name" class="form-input"required>
+            <input type="email" placeholder="your email" class="form-input"required>
+            <textarea placeholder="your message" class="form-input">required</textarea>
+            <button class="submit-button">submit</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer-section" >
+        <div class="section-content">
+          <p class="copyright-text">© 2024 Coffee-day</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">privacy policy</a>
+            <span class="separator">●</span>
+            <a href="#" class="policy-link">refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="coffee.js"></script>
+  </body>
+</html>
